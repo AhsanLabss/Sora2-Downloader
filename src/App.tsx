@@ -31,7 +31,7 @@ function App() {
 
       {/* WhatsApp Button – CLEAN, NO WHITE BORDER */}
       <a
-        href="https://whatsapp.com/channel/0029Vb6cRL43GJOqu4q0Q"
+        href="https://whatsapp.com/channel/0029Vb6cRL43GJOqdGUq4q0Q"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 group"
