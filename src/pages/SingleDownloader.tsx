@@ -20,7 +20,7 @@ function SingleDownloader({ onBack }: SingleDownloaderProps) {
   const [videoTitle, setVideoTitle] = useState('');
   const [justDownloaded, setJustDownloaded] = useState(false);
 
-  const API_BASE = 'https://sora-api-ahsan.jodoffcl2.workers.dev';
+  const API_BASE = 'https://sora-api-ahsan.ahsanlabs.workers.dev/';
 
   const extractId = (input: string): string | null => {
     const match = input.match(/s_[a-f0-9]{32}/);
