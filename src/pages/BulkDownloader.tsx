@@ -24,7 +24,7 @@ function BulkDownloader({ onBack }: BulkDownloaderProps) {
   const [success, setSuccess] = useState('');
   const [zipStarted, setZipStarted] = useState(false);
 
-  const API_BASE = 'https://sora-api-ahsan.jodoffcl2.workers.dev';
+  const API_BASE = 'https://sora-api-ahsan.ahsanlabs.workers.dev/';
 
   const extractPostId = (url: string): string | null => {
     const match = url.match(/s_[a-f0-9]{32}/);
